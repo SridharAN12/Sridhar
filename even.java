@@ -1,18 +1,14 @@
-import java .util.Scanner;
 class even
 {
-public static void main(String arg[])
+public static void main(String args[])
 {
-int x;
-System.out.println("enter the integer");
-Scanner in=new Scanner(System.in);
-
-x=in.nextInt();
-if(x%2==0) 
-
-System.out.println("even number");
-else
-System.out.println("odd number");
-
+int l=20;
+System.out.println("odd number between 1 and "+l);
+for(int i=1;i<=l;i++)
+{
+if(i%2==0){
+System.out.println(i +" ");
+}
+}
 }
 }
